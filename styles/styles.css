@@ -18,17 +18,18 @@ body {
 }
 
 #smallScreen { 
-    background-color: #f1faee;
+    background-color: white;
     /* padding: 6vh 12vw; */
     display:flex;
     justify-content: center;
     align-items: center;
     position:fixed;
-    width:24%;
-    height:13%;
+    width:23%;
+    height:12%;
     z-index: 1;
     border-radius: 10px;
     margin:0;
+    font-size: 1.8em;
 
     
    
@@ -54,17 +55,19 @@ body {
     bottom:60%;
     flex-direction:row;
     width:26vw;
-    justify-content: center;
+    justify-content: space-around;
     align-content:center;
+
     
     
 }
 
 #clearButton {
     /* padding:17px 21vh; */
-    width:25vw;
+    width:10vw;
     background-color: white;
     text-align:center;
+    
 
     
 
