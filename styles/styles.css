@@ -11,17 +11,45 @@ body {
     height: 70vh; 
     background-color: #A8DADC;
     border: 1px solid black;
+    border-radius: 10px;
 
    
    
 }
 
+#smallScreen { 
+    background-color: #f1faee;
+    position:fixed;
+    padding: 6.5vh 12vw;
+    z-index: 1;
+    border-radius: 10px;
+
+}
+
 #screen {
+    display:flex;
     background-color: #1D3557;
     position:fixed;
     padding: 8vh 13vw;
+    justify-content: center;
+    align-items:center;
+    border-radius: 10px;
+
     
     
+}
+
+#clearRow { 
+    display:flex;
+    position:fixed;
+    bottom:60%;
+    flex-direction:row;
+    width:26vw;
+    justify-content: center;
+}
+
+#clearButton {
+    padding:17px 21vh;
 }
 
 
@@ -69,11 +97,8 @@ button {
     background-color: #F1FAEE;
     padding: 20px 30px;
     cursor:pointer;
-    font-size: 15px;;
-
-    
-    
-
+    font-size: 15px;
+    border-radius: 10px;
 }
 
   
