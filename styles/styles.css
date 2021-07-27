@@ -55,10 +55,19 @@ body {
     flex-direction:row;
     width:26vw;
     justify-content: center;
+    align-content:center;
+    
+    
 }
 
 #clearButton {
-    padding:17px 21vh;
+    /* padding:17px 21vh; */
+    width:25vw;
+    background-color: white;
+    text-align:center;
+
+    
+
 }
 
 
@@ -104,12 +113,16 @@ body {
 
 button { 
     background-color: #F1FAEE;
-    padding: 20px 30px;
+    /* padding: 20px 30px; */
+    width: 5vw;
+    height: 8vh;
     cursor:pointer;
     font-size: 15px;
     border-radius: 10px;
     
     
 }
+
+
 
   

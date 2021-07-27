@@ -1,3 +1,4 @@
+//plays a sound whenever a button is clicked
 const buttons = document.querySelectorAll('.btn')
 buttons.forEach(function(currentBtn){
   currentBtn.addEventListener('click', () => {
