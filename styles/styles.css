@@ -20,9 +20,9 @@ body {
 #smallScreen { 
     background-color: #f1faee;
     /* padding: 6vh 12vw; */
-   display:flex;
-   justify-content: center;
-   align-items: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     position:fixed;
     width:24%;
     height:13%;

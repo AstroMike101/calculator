@@ -8,6 +8,12 @@ buttons.forEach(function(currentBtn){
 })
 
 
+const equalBtn = document.querySelector('.equalBtn');
+equalBtn.addEventListener('click', () => { 
+    let equalClick = document.querySelector('.equalClick');
+    equalClick.play();
+});
+
 
 
 
