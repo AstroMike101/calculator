@@ -1,3 +1,21 @@
+const buttons = document.querySelectorAll('.btn')
+buttons.forEach(function(currentBtn){
+  currentBtn.addEventListener('click', () => {
+      let click = document.querySelector('.click');
+      click.play();
+  })
+})
+
+
+
+
+
+
+
+
+
+
+
 function add(num1,num2) {
     return num1 + num2; 
     
