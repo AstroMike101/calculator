@@ -19,10 +19,19 @@ body {
 
 #smallScreen { 
     background-color: #f1faee;
+    /* padding: 6vh 12vw; */
+   display:flex;
+   justify-content: center;
+   align-items: center;
     position:fixed;
-    padding: 6.5vh 12vw;
+    width:24%;
+    height:13%;
     z-index: 1;
     border-radius: 10px;
+    margin:0;
+
+    
+   
 
 }
 
