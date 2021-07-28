@@ -127,5 +127,22 @@ button {
 }
 
 
+.footer { 
+    display:flex;
+    position:fixed;
+    flex-direction: row;
+    bottom:16%;
+    justify-content: center;
+    width:26vw;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 10px;
+}
+
+a { 
+    position: relative;
+    left: 3px;
+    text-decoration: none;
+    color: #e63946;
+}
 
   
