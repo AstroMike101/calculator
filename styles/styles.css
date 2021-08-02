@@ -47,9 +47,6 @@ body {
     justify-content: center;
     align-items:center;
     border-radius: 10px;
-
-    
-    
 }
 
 #clearRow { 
@@ -150,3 +147,50 @@ a {
 }
 
   
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    .mainDiv { 
+        position:relative;
+        top: 15vh;
+        margin: 0 auto;
+        width: 70vw;
+        height: 70vh;  
+        
+        
+    }
+   #screen {
+    padding: 8vh 35vw;
+    }
+
+    #smallScreen { 
+    width:60%;
+    height:12%;
+    }
+
+    #row1, #row2, #row3, #row4 { 
+        width: 70vw;
+        
+    }
+
+    #clearRow{ 
+        width:73vw;
+    }
+    
+    .footer { 
+        width:70vw;
+    }
+    .btn {
+        padding:1em;
+    }
+    #clearButton, #deleteButton {
+        padding: 1em 3.7em;
+        
+        
+    }
+
+
+}
