@@ -175,12 +175,30 @@ a {
         
     }
 
+    #row1  {
+        bottom:46%; 
+    }
+
+    #row2  {
+        bottom:36%; 
+    }
+    #row3  {
+        bottom:26%; 
+    }
+    #row4  {
+        bottom:16%; 
+    }
+
+
+
     #clearRow{ 
         width:73vw;
+        bottom:55%;
     }
     
     .footer { 
         width:70vw;
+        bottom: 12%;
     }
     .btn {
         padding:1em;
