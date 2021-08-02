@@ -2,6 +2,8 @@ body {
     background-color: #F1FAEE;
 }
 
+
+
 .mainDiv { 
     display:flex;
     position:relative;
@@ -29,7 +31,8 @@ body {
     z-index: 1;
     border-radius: 10px;
     margin:0;
-    font-size: 1.8em;
+    font-size: 1.3em;
+    
 
     
    
@@ -62,7 +65,7 @@ body {
     
 }
 
-#clearButton {
+#clearButton, #deleteButton {
     /* padding:17px 21vh; */
     width:10vw;
     background-color: white;
